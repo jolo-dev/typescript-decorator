@@ -21,7 +21,7 @@ export default class APIServer {
 
         // Set port
         this._app.set("port", process.env.PORT || 3000);
-
+        
         // Add Middleware
         this.configureMiddleware();
     }
